@@ -5,15 +5,15 @@
 
     <item
         android:id="@+id/item_one"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/bottomnav_icon"
         android:title="Menu One"/>
     <item
         android:id="@+id/item_two"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/bottomnav_icon"
         android:title="Menu two"/>
     <item
         android:id="@+id/item_three"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/bottomnav_icon"
         android:title="Menu three"/>
 
 </menu>

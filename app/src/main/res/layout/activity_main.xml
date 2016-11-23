@@ -12,12 +12,20 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="chetan.com.bottomnavigationdemo.MainActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/headerImage"
+        />
 <android.support.design.widget.BottomNavigationView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:id="@+id/bottomNavigationView"
     android:layout_alignParentBottom="true"
-    app:menu="@menu/bottom_navigation_menu">
+    app:menu="@menu/bottom_navigation_menu"
+    app:itemBackground="@color/colorPrimaryDark"
+    app:itemTextColor="#fff">
 </android.support.design.widget.BottomNavigationView>
 
 </RelativeLayout>
